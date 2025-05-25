@@ -1,7 +1,7 @@
 // pages/api/auth/courses.ts
 
 import { NextApiRequest, NextApiResponse } from 'next'
-import { connectToDatabase } from '../../../lib/db'
+import { connectToDatabase } from '../../../../lib/db'
 
 async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'GET') {
